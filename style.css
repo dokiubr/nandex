@@ -1,0 +1,62 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #111; /* Cor levemente diferente para destacar */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #222;
+    color: #fff;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+#feedback {
+    margin-top: 10px;
+    color: #ff5555;
+    font-weight: bold;
+}
+
+/* Texto escondido */
+#hidden-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #915050; /* Cor quase igual ao fundo preto */
+    font-size: 0.1px; /* Quase invisível */
+    user-select: none; /* Impede a seleção do texto */
+}
